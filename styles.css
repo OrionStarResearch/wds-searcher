@@ -1,0 +1,138 @@
+body 
+{
+    background-image: url("./skybackground.jpg");
+    background-size: cover;
+    color: #ecf0f1;
+    font-size: 20px;
+    font-family: 'Heebo', sans-serif;
+}
+
+.tint
+{
+    z-index: -1;
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    overflow: auto;
+    top: 0px;
+    left: 0px;
+    background-color: rgba(40,40,40,0.8);
+}
+
+
+.content
+{
+    padding: 150px;
+}
+
+input 
+{
+    font-family: 'Source Code Pro', monospace;
+    color: #ecf0f1;
+    font-size: 20px;
+    height: 45px;
+    padding-left: 15px;
+    border: 0px;
+    width:140px;
+    background: rgba(75,75,75,0.15);
+}
+
+:focus
+{
+    outline: none;
+}
+
+button
+{
+    color: #ecf0f1;
+    font-size: 30px;
+    border: 0px;
+    padding: 15px;
+    background: rgba(0,0,0,0);
+    font-family: 'Heebo', sans-serif;
+    line-height: 30px;
+    transition: 0.1s;
+}
+
+button:hover 
+{
+    background: rgba(100,100,100,.5)
+}
+
+.RadioButton
+{
+    transition: 0.1s;
+    display: inline-block;
+    width:120px;
+    color: #cccccc;
+    background: rgba(75,75,75,0.15);
+    font-family: 'Source Code Pro', monospace;
+    padding: 10px;
+}
+
+.RadioButton:hover
+{
+    color: #ecf0f1;
+    background: rgba(100,100,100,.5)
+}
+
+.SelectedRadioButton
+{
+    color: #ecf0f1;
+    background: rgba(100,100,100,.5)
+}
+
+
+.stars-address
+{
+    display: inline-block;
+    font-family: 'Source Code Pro', monospace;
+    color: #999999;
+    position: relative;
+    left: -20px;
+    top: -20px;
+    width:100%;
+    padding: 20px;
+    background-color: rgba(10,10,10,0.55)
+}
+
+#star-list 
+{
+     display: inline-block;
+    position: relative;
+    padding-left: 20px;
+    padding-right: 20px;
+    left:-20px;
+    width: 100%;
+}
+
+.stars 
+{
+    font-family: 'Source Code Pro', monospace;
+    width:100%;
+    padding: 20px;
+    background-color: rgba(20,20,20,0.25)
+}
+
+.sa-id
+{
+    display: inline-block;
+    width: 25%;
+}
+
+.sa-epoch
+{
+    display: inline-block;
+    width: 10%;
+}
+
+.sa-rho
+{
+    display: inline-block;
+    width: 12%;
+}
+.sa-mag
+{
+    display: inline-block;
+    width: 17%;
+}

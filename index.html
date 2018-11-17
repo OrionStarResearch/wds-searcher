@@ -1,0 +1,64 @@
+<html>
+    <head>
+        <script src="wds.js"></script>
+        <script src="ifs.js"></script>
+        <!-- <link href="https://fonts.googleapis.com/css?family=Questrial" rel="stylesheet"> -->
+        <link href="https://fonts.googleapis.com/css?family=Heebo:300" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:300" rel="stylesheet">
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body onload="clearStarList()">
+        <div class=tint>
+            
+        </div>
+        <div class=content>
+            Magnitude  &nbsp; &nbsp; 
+            <input id="minMag" type="text" placeholder="Min Mag."/>
+            <input id="maxMag" type="text" placeholder="Max Mag."/>
+            
+            <br>
+            <br>
+
+            Seperation   &nbsp; &nbsp; 
+            <input id="minRho" type="text" placeholder="Min Rho"/>
+            <input id="maxRho" type="text" placeholder="Max Rho"/>
+
+            <br>
+            <br>
+
+            Sort By &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+
+            <span class="SelectedRadioButton RadioButton" id="Magnitude" onclick="selectSortRadio(0)">Magnitude</span> 
+            <span class="RadioButton" id="Seperation" onclick="selectSortRadio(1)">Seperation</span> 
+
+            
+
+            <br>
+            <br>
+
+            Max Entries &nbsp;
+            <input id="maxEntries" placeholder="Max Entries" style="display:inline-block; width: 280px;" />
+
+            <br> <br>
+
+            <button onclick="sortStars()"> Filter Stars &nbsp; <img src="arrow.png" height=23px />  </button>
+
+            <br>
+            <br>
+
+            <div id="stars" class="stars">
+                <span class="stars-address">
+                    <span class="sa-id">Star Identifier</span>
+                    <span class="sa-epoch">Epoch</span>
+                    <span class="sa-rho">Seperation</span>
+                    <span class="sa-mag">Primary Magnitude</span>
+                    <span class="sa-mag">Secondary Magnitude</span>
+                </span>
+                <div id="star-list">
+
+                </div>
+            </div>
+        </div>
+    
+    </body>
+</html>
