@@ -1,4 +1,4 @@
-BSD 3-Clause License
+Modified BSD 3-Clause License
 
 Copyright (c) 2018, Orion Double Star Team
 All rights reserved.
@@ -27,3 +27,13 @@ SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER
 CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,
 OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
 OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+Additional license terms and conditions:
+
+- The Orion Star Research reserves the right to use this software's source and binaries commercially. The software itself can be used to do commercial research, but you may not distribute the software, or derivates of the software commercially without an expicit waive of this term by the Orion Star Research group.
+
+- The origin of this software must not be misrepresented; you must not
+   claim that you wrote the original software.
+   
+- Altered source versions must be plainly marked as such, and must not be
+   misrepresented as being the original software.
